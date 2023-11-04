@@ -7,7 +7,8 @@ The paper is freely accessible at this link: https://hal.science/hal-03485108v1/
 
 This implementation requires MATLAB 2018b or a more recent version.
 
-  1 # DMPC: ## This part is an implementation of discrete MPC with Laguere function for linear systems (vehicle lateral control in this case)
+  # 1 DMPC: 
+  # This part is an implementation of discrete MPC with Laguere function for linear systems (vehicle lateral control in this case)
       1 Run the script 'Launch_MPC.m'.
       2 The script loads trajectory data (Double lane change maneuver or other trajectories).
       3 The script loads the parameters for the vehicle model and MPC controller (Params.mat).
@@ -15,7 +16,8 @@ This implementation requires MATLAB 2018b or a more recent version.
       5 Note that it is important to adjust MPC constraints accordingly, or it will diverge.
 
 
-  2 # PSO_MPC: ## This code optimizes the MPC parameters (Np, Nc, Q, R, etc.) with an enhanced PSO algorithm through iterative simulations
+  # 2 PSO_MPC: 
+  ## This code optimizes the MPC parameters (Np, Nc, Q, R, etc.) with an enhanced PSO algorithm through iterative simulations
 
     1 Run the script 'PSO_MPC.m.
     2 The script sets up the optimization problem through the script "mpc_param.m", and executes the optimization through the script "PSO_test.m".
