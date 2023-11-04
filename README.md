@@ -20,16 +20,16 @@ This implementation requires MATLAB 2018b or a more recent version.
  -  # PSO_MPC: 
     ### This code optimizes the MPC parameters (Np, Nc, Q, R, etc.) with an enhanced PSO algorithm through iterative simulations
 
-  1. Run the script 'PSO_MPC.m'.
-  2. The script sets up the optimization problem through the script "mpc_param.m", 
-    
-     and executes the optimization through the script "PSO_test.m".
-  3. The code simulates the vehicle model in "MPC.slx" to optimize the controller parameters by minimizing 
-    
-     the cost function defined in "mpc_param" (please check the paper for more details)
-  4. At the end of the optimization, the data of optimal parameters will be saved 
-    
-     in an Excel file (check "mpc_param" to know which file) 
+     1. Run the script 'PSO_MPC.m'.
+     2. The script sets up the optimization problem through the script "mpc_param.m", 
+       
+        and executes the optimization through the script "PSO_test.m".
+     3. The code simulates the vehicle model in "MPC.slx" to optimize the controller parameters by minimizing 
+       
+        the cost function defined in "mpc_param" (please check the paper for more details)
+     4. At the end of the optimization, the data of optimal parameters will be saved 
+       
+        in an Excel file (check "mpc_param" to know which file) 
 
 ### You might want to check a closely related implementation in this repository (https://github.com/yassinekebbati/NN_MPC-vs-ANFIS_MPC)
 
