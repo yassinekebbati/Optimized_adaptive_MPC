@@ -6,7 +6,7 @@ The paper is freely accessible at this link: https://hal.science/hal-03485108v1/
 ## Steps to run the code:
 
 This implementation requires MATLAB 2018b or a more recent version.
-# 1.  DMPC: 
+1.  # DMPC: 
   ### This part is an implementation of discrete MPC with Laguere function for linear systems (vehicle lateral control in this case)
       1. Run the script 'Launch_MPC.m'.
       2. The script loads trajectory data (Double lane change maneuver or other trajectories).
