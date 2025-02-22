@@ -27,9 +27,10 @@ This implementation requires MATLAB 2018b or a more recent version.
 ### You might want to check a closely related implementation in this repository (https://github.com/yassinekebbati/NN_MPC-vs-ANFIS_MPC)
 
 ### If you find this work useful or use it in your work, please cite the main paper:
-
+#### APA:
 Kebbati, Y., Puig, V., Ait-Oufroukh, N., Vigneron, V., & Ichalal, D. (2021, November). Optimized adaptive MPC for lateral control of autonomous vehicles. In 2021 9th International Conference on Control, Mechatronics and Automation (ICCMA) (pp. 95-103). IEEE.
 
+#### BibTeX:
 @inproceedings{kebbati2021optimized,
   title={Optimized adaptive MPC for lateral control of autonomous vehicles},
   author={Kebbati, Yassine and Puig, Vicen{\c{c}} and Ait-Oufroukh, Naima and Vigneron, Vincent and Ichalal, Dalil},
